@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# 
+# Start of session at: Mon Oct 24 16:47:51 2016
+# Process ID: 7828
+# Current directory: C:/Users/MENGXIAN/Desktop/sdk_arduino_IKS01A1/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/MENGXIAN/Desktop/sdk_arduino_IKS01A1/webtalk/webtalk.log
+# Journal file: C:/Users/MENGXIAN/Desktop/sdk_arduino_IKS01A1/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

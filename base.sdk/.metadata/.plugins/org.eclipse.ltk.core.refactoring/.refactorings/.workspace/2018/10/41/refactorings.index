@@ -1,0 +1,6 @@
+1539113051858	Delete resource 'IKS01A1_test_bsp/iop_arduino_mb/include/i2c.h'
+1539113056912	Delete resource 'IKS01A1_test_bsp/iop_arduino_mb/include/gpio.h'
+1539113060190	Delete resource 'IKS01A1_test_bsp/iop_arduino_mb/include/spi.h'
+1539113062088	Delete resource 'IKS01A1_test_bsp/iop_arduino_mb/include/timer.h'
+1539113064087	Delete resource 'IKS01A1_test_bsp/iop_arduino_mb/include/uart.h'
+1539113067405	Delete resource 'IKS01A1_test_bsp/iop_arduino_mb/include/circular_buffer.h'

@@ -1,0 +1,10 @@
+/*
+ * Empty C++ Application
+ */
+#include "circular_buffer.h"
+#include "i2c.h"
+
+int main()
+{
+	return 0;
+}

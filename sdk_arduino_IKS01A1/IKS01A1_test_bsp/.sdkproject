@@ -1,0 +1,4 @@
+THIRPARTY=false
+HW_PROJECT_REFERENCE=base_hw_platform_0
+PROCESSOR=iop3_mb
+MSS_FILE=system.mss

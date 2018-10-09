@@ -1,0 +1,18 @@
+03:46:39 **** Incremental Build of configuration Debug for project IKS01A1_test ****
+make all 
+Building target: IKS01A1_test.elf
+Invoking: MicroBlaze g++ linker
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -L../../IKS01A1_test_bsp/iop_arduino_mb/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "IKS01A1_test.elf"  ./src/HTS221.o ./src/LIS3MDL.o ./src/LPS25HB.o ./src/LSM6DS0.o ./src/main.o ./src/myiic.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+./src/myiic.o: In function `i2c_init()':
+/home/junhonglin/Xilinx/PYNQ_dirty/boards/Pynq-Z2/base/base/base.sdk/IKS01A1_test/Debug/../src/myiic.c:13: undefined reference to `i2c_open_device(unsigned int)'
+./src/myiic.o: In function `i2c_write_IKS01A1(unsigned char, unsigned char, unsigned char)':
+/home/junhonglin/Xilinx/PYNQ_dirty/boards/Pynq-Z2/base/base/base.sdk/IKS01A1_test/Debug/../src/myiic.c:20: undefined reference to `i2c_write(int, unsigned int, unsigned char*, unsigned int)'
+makefile:48: recipe for target 'IKS01A1_test.elf' failed
+./src/myiic.o: In function `i2c_read_IKS01A1(unsigned char, unsigned char, unsigned char)':
+/home/junhonglin/Xilinx/PYNQ_dirty/boards/Pynq-Z2/base/base/base.sdk/IKS01A1_test/Debug/../src/myiic.c:27: undefined reference to `i2c_write(int, unsigned int, unsigned char*, unsigned int)'
+/home/junhonglin/Xilinx/PYNQ_dirty/boards/Pynq-Z2/base/base/base.sdk/IKS01A1_test/Debug/../src/myiic.c:28: undefined reference to `i2c_read(int, unsigned int, unsigned char*, unsigned int)'
+collect2: error: ld returned 1 exit status
+make: *** [IKS01A1_test.elf] Error 1
+
+03:46:39 Build Finished (took 391ms)
+

@@ -1,0 +1,11 @@
+22:13:10 INFO  : Registering command handlers for SDK TCF services
+22:13:17 INFO  : Launching XSCT server: xsct -n -interactive /home/junhonglin/Xilinx/PYNQ_dirty/boards/Pynq-Z2/base/base/base.sdk/temp_xsdb_launch_script.tcl
+22:13:19 INFO  : XSCT server has started successfully.
+22:13:19 INFO  : Successfully done setting XSCT server connection channel  
+22:13:19 INFO  : Successfully done setting SDK workspace  
+22:13:19 INFO  : Processing command line option -hwspec /home/junhonglin/Xilinx/PYNQ_dirty/boards/Pynq-Z2/base/base/base.sdk/top.hdf.
+02:58:53 INFO  : Launching XSCT server: xsct -n -interactive /home/junhonglin/Xilinx/PYNQ_dirty/boards/Pynq-Z2/base/base/base.sdk/temp_xsdb_launch_script.tcl
+02:58:55 INFO  : XSCT server has started successfully.
+02:58:55 INFO  : Successfully done setting XSCT server connection channel  
+02:58:55 INFO  : Successfully done setting SDK workspace  
+02:59:06 INFO  : Registering command handlers for SDK TCF services
